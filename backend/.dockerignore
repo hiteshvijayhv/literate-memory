@@ -1,0 +1,7 @@
+.git
+.gitignore
+README.md
+frontend
+node_modules
+**/node_modules
+target

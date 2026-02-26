@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/linktree_clone}
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:change-me-super-secret-key-change-me-super-secret-key}
+    expiration-seconds: ${JWT_EXPIRATION_SECONDS:3600}
+
+server:
+  error:
+    include-message: always
