@@ -282,7 +282,7 @@ A new frontend app now exists in `frontend/` with:
 3. `npm run dev`
 
 Optional env:
-- `VITE_API_BASE_URL` (default: `https://literate-memory-1.onrender.com`)
+- `VITE_API_BASE_URL` (recommended for deployments). If unset, frontend uses `http://localhost:8080` on localhost and `https://literate-memory-1.onrender.com` elsewhere.
 
 ## Deploy backend on Render using Docker
 
